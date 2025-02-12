@@ -1,0 +1,28 @@
+@media screen and (max-width: 1368px) {
+    .container {
+        padding: 0 100px;
+    }
+}
+@media screen and (max-width: 1051px) {
+    .main-info {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 837px) {
+    .footer-list {
+        width: 502px;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: start;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        width: 200px;
+        flex-wrap: wrap;
+    }
+    .logo {
+        height: 60px;
+        width: 138px;
+    }
+}
