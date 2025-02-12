@@ -12,17 +12,50 @@
     .footer-list {
         width: 502px;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 15px;
         justify-content: start;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 617px) {
     .navbar {
         width: 200px;
         flex-wrap: wrap;
+        margin-bottom: 90px;
+        height: 100px;
     }
     .logo {
         height: 60px;
         width: 138px;
     }
+    .footer-list {
+        width: 450px;
+    }
+    .hero-title {
+        font-size: 130px;
+    }
 }
+@media screen and (max-width: 522px) {
+    .hero-title {
+        font-size: 110px;
+    }
+    .arranger {
+        background-size: 175% 100%;
+        height: 900px;
+    }
+    .main-info {
+        background-color: #000000a3;
+    }
+    .footer-list {
+        width: 300px;
+    }
+    .container {
+        padding: 0 70px;
+    }
+    .devider {
+        display: flex;
+        height: 2px;
+        width: 100%;
+    }
+}
+/* @media screen and (max-width: 522px) {
+} */

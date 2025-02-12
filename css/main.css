@@ -51,7 +51,9 @@ a {
 .item-link:hover {
     color: #000000;
 }
-
+.hero {
+    margin-bottom: 20px;
+}
 .hero-title {
     font-family: Palatino Linotype;
     font-weight: 400;
@@ -74,7 +76,9 @@ a {
     margin: auto;
     margin-bottom: 40px;
 }
-
+.devider {
+    display: none;
+}
 .section-1 {
     background-image: url(../assets/images/IMAGE1.png);
     background-repeat: no-repeat;
