@@ -21,13 +21,13 @@ let colorChanger = () => {
 
 let colorCorrector = () => {
     for (let i of text) {
-        i.style.color = "black";
+        i.style.color = "";
     }
     body.style.backgroundColor = "white";
     hover.style.color = "black";
     body.style.transition = "all 0.5s ease";
     for (let i of sth) {
-        i.style.width = "50%";
+        i.style.width = "";
     }
     btn2.style.display = "none";
     btn.style.display = "block";
