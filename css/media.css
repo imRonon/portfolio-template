@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 617px) {
     .navbar {
-        width: 200px;
+        width: 280px;
         flex-wrap: wrap;
         margin-bottom: 90px;
         height: 100px;
@@ -27,11 +27,18 @@
         height: 60px;
         width: 138px;
     }
+
     .footer-list {
         width: 450px;
     }
     .hero-title {
         font-size: 130px;
+    }
+    .devider {
+        display: flex;
+        height: 2px;
+        width: 100%;
+        color: #808080;
     }
 }
 @media screen and (max-width: 522px) {
@@ -51,12 +58,4 @@
     .container {
         padding: 0 70px;
     }
-    .devider {
-        display: flex;
-        height: 2px;
-        width: 100%;
-        color: #808080;
-    }
 }
-/* @media screen and (max-width: 522px) {
-} */

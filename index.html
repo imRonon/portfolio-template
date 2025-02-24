@@ -13,34 +13,47 @@
             <header class="header">
                 <div class="container">
                     <nav class="navbar">
-                        <a href="">
-                            <img
-                                src="./assets/icons/Frame.png"
-                                alt=""
-                                class="logo"
-                            />
+                        <a class="logo" id="text" href="">
+                            My Portfolio<span>.</span>
                         </a>
+                        <button
+                            type="button"
+                            onclick="colorChanger()"
+                            class="switch"
+                        ></button>
+                        <button
+                            type="button"
+                            onclick="colorCorrector()"
+                            class="other-switch"
+                        ></button>
                         <ul class="item-list">
                             <li>
-                                <a href="#sinder" class="item-link active"
+                                <a
+                                    href="#sinder"
+                                    id="link"
+                                    class="item-link active"
                                     >Home</a
                                 >
                             </li>
                             <li>
-                                <a href="#igotchu" class="item-link">About</a>
+                                <a href="#igotchu" id="link" class="item-link"
+                                    >About</a
+                                >
                             </li>
                             <li>
-                                <a href="#life" class="item-link">Contact</a>
+                                <a href="#life" id="link" class="item-link"
+                                    >Contact</a
+                                >
                             </li>
                         </ul>
                     </nav>
 
                     <div class="hero">
-                        <h1 class="hero-title">
+                        <h1 id="text" class="hero-title">
                             Hello, <br />
                             You.
                         </h1>
-                        <a href="" class="text-us"
+                        <a id="text" href="" class="text-us"
                             >👋 Double-click to introduce yourself. Tell the
                             world what you do — and why they should care.</a
                         >
@@ -97,33 +110,42 @@
             </main>
             <footer class="footer">
                 <div class="container">
-                    <a href="" class="footer-logo">
-                        <img src="./assets/icons/Frame.png" alt="" />
+                    <a class="logo footer-logo" id="text" href="">
+                        My Portfolio<span>.</span>
                     </a>
+
                     <ul class="footer-list">
                         <li>
-                            <a href="" class="footer-link">Instagram</a>
+                            <a id="text" href="" class="footer-link"
+                                >Instagram</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="footer-link">Twitter</a>
+                            <a id="text" href="" class="footer-link">Twitter</a>
                         </li>
                         <li>
-                            <a href="" class="footer-link">Linkedin</a>
+                            <a id="text" href="" class="footer-link"
+                                >Linkedin</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="footer-link">Behance</a>
+                            <a id="text" href="" class="footer-link">Behance</a>
                         </li>
                         <li>
-                            <a href="" class="footer-link">Dribbble</a>
+                            <a id="text" href="" class="footer-link"
+                                >Dribbble</a
+                            >
                         </li>
                         <li>
-                            <a href="" class="footer-link"
+                            <a id="text" href="" class="footer-link"
                                 >Image License Info</a
                             >
                         </li>
                         <hr class="devider" />
                         <li>
-                            <p class="footer-link">Powered by Webflow</p>
+                            <p id="text" class="footer-link">
+                                Powered by Webflow
+                            </p>
                         </li>
                     </ul>
                     <p class="extra-text">This section is a Symbol.</p>
@@ -134,5 +156,6 @@
                 </div>
             </footer>
         </div>
+        <script src="./js/script.js"></script>
     </body>
 </html>
