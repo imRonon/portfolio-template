@@ -29,6 +29,7 @@ let colorCorrector = () => {
     body.style.transition = "all 0.5s ease";
     for (let i of sth) {
         i.style.width = "";
+        i.style.backgroundColor = "";
     }
     btn2.style.display = "none";
     btn.style.display = "block";
