@@ -14,6 +14,7 @@ let colorChanger = () => {
     body.style.transition = "all 0.5s ease";
     for (let i of sth) {
         i.style.width = "100%";
+        i.style.backgroundColor = "#000000e1";
     }
     btn.style.display = "none";
     btn2.style.display = "block";
